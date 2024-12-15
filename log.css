@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* this portion is box adjustment */
+
+.title{
+    position: absolute;
+    left: 5vw;
+    top: 3vh;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+
+}
+
+.left-log-content{
+    height: 100vh;
+    width: 50vw;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-log-content{
+    height: 100vh;
+    width: calc(100vw - 50vw);
+    /* background-color:red; */
+}
+/* this part is for right side background */
+.background-photo{
+    height: 95%;
+    width: 95%;
+    background-image: url(/log-photo.jpg);
+
+    background-size: cover;
+    
+}
+
+/* this portion is for log in part */
+
+.log-in{
+    height: 70%;
+    width: 50%;
+    /* background-color:rebeccapurple; */
+    border-radius: 2vw;
+}
+
+a{
+    color: #316FF6;
+}
+
+.start{
+    height: 5vh;
+    font-size:1vw ;
+}
+
+.inside-box{
+    height: 70%;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.input{
+    padding-top: 5vh;
+    height: 25%;
+    
+}
+
+.emii{
+    height: 3vw;
+    width: 20vw;
+    padding-left: 1vw;
+    font-size: 2vh;
+}
+
+.pass{
+    height: 3vw;
+    width: 20vw;
+    padding-left: 1vw;
+    font-size: 2vh;
+}
+
+.sign-in{
+height: 25%;
+ padding-top: 5vh;
+}
+
+.sign-button{
+    height: 7vh;
+    width: 20vw;
+    background-color: #316FF6;
+    border: none;
+    color: white;
+    font-size: 1vw;
+}
+
+
+.log-with{
+
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+    
+}
+
+.log{
+    height: 7vh;
+    width: 4vw;
+    border: none;
+    background-color:white;
+    cursor: pointer;
+}
+
+.signupwith{
+    padding-top: 1.9vh;
+}
+
+.with{
+    font-size: 2vh;
+}
+
+.have-an-account{
+    position: absolute;
+    bottom: 5vh;
+    left: 5vw;
+}
+
+.fa-facebook{
+   color: #316FF6;
+   font-size: 2.5vh;
+}
+
+.fa-google{
+    font-size: 2.5vh;
+}
+
+.fa-microsoft{
+    color: purple;
+    font-size: 2.5vh;
+}
+
+.log:hover{
+    border: 0.5px solid;
+}
+
