@@ -37,7 +37,7 @@
 .background-photo{
     height: 95%;
     width: 95%;
-    background-image: url(/log-photo.jpg);
+    background-image: url("log-photo.jpg");
 
     background-size: cover;
     
