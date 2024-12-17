@@ -12,9 +12,7 @@
     top: 3vh;
 }
 
-.fa-bars{
-    display: none;
-}
+
 
 .container{
     height: 100vh;
@@ -45,6 +43,13 @@
 
     background-size: cover;
     
+}
+
+
+.fa-bars{
+    position: absolute;
+    font-size: 0.1vh;
+
 }
 
 /* this portion is for log in part */
