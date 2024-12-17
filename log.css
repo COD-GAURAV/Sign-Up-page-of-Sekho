@@ -152,3 +152,84 @@ height: 25%;
     border: 0.5px solid;
 }
 
+
+@media(max-width:720px){
+    .right-log-content{
+        display: none;
+    }
+
+
+    .left-log-content{
+        width: 100%;
+    }
+
+    .log-in{
+        width: 90%;
+    }
+
+    .trio{
+        font-size: 4vh;
+    }
+
+
+    .h1{
+        text-align: center;
+        font-size: 2vh;
+    }
+
+
+    .heading{
+        font-size: 4vh;
+    }
+
+
+    .input{
+        width: 100%;
+        height: 10vh;
+
+    }
+
+    .emii{
+        height: 6vh;
+        width: 74vw;
+        padding-left: 3vw;
+    }
+
+    .pass{
+        height: 6vh;
+        width: 74vw;
+        padding-left: 3vw;
+    }
+
+
+
+    .sign-button{
+        width: 53vw;
+        /* height: ; */
+        font-size: 2vh;
+    }
+
+    .log-with{
+        height: 26%;
+        gap: 13vw;
+        
+    }
+
+    .log{
+        height: 6vh;
+        width: 15vw;
+        border: 1px solid ;
+    }
+
+    .fa-brands{
+        font-size: 3vh;
+    }
+
+    .have-an-account{
+        font-size: 5vw;
+        position: absolute;
+        bottom: 22vh;
+        left: 25vw;
+    }
+}
+
