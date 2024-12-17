@@ -12,6 +12,10 @@
     top: 3vh;
 }
 
+.fa-bars{
+    display: none;
+}
+
 .container{
     height: 100vh;
     width: 100vw;
@@ -167,8 +171,29 @@ height: 25%;
         width: 90%;
     }
 
+    .title{
+        background-color: #316FF6;
+        height: 8%;
+        width: 100%;
+        position: absolute;
+        top: 0%;
+        left: 0;
+    }
+
     .trio{
         font-size: 4vh;
+        margin-top: 2vh;
+        margin-left: 4vw;
+    }
+
+    .fa-bars{
+        position: absolute;
+        font-size: 3vh;
+        margin-top: 2.5vh;
+        margin-left: 4vw;
+        top: 0%;
+        right: 4%;
+
     }
 
 
@@ -228,7 +253,7 @@ height: 25%;
     .have-an-account{
         font-size: 5vw;
         position: absolute;
-        bottom: 15vh;
+        bottom: 12vh;
         left: 25vw;
     }
 }
